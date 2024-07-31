@@ -1,0 +1,44 @@
+body {
+    background-color: #1d2124;
+    min-height: 275px; 
+    min-width: 450px;
+    position: relative;
+    vertical-align:middle;
+  }
+
+.header {
+    color: #ff7f27;
+    font-family: Arial;
+}
+
+#players {
+    resize: none;
+}
+
+#results {
+    position: absolute;
+    font-family: Arial;
+    top: 100px;
+    left: 170px;
+    color: #ffffff;
+    font-size: 15px;
+    display: block;
+    width: 100px;
+}
+
+#goButton {
+    background-color:#ff7f27;
+    color:#ffffff;
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    font-family: Arial;
+}
+
+#info {
+    font-family: Arial;
+    position: absolute;
+    color:#ffffff;
+    top: 220px;
+    left: 0px;
+}
